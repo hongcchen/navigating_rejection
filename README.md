@@ -9,8 +9,17 @@ This is the abstract of our paper:
 
 # Repository Structure
 
-- data/: Directory for raw data files used in the analysis (if allowed to share) or scripts to load data from external sources.
-- scripts/: Contains all analysis scripts organized by section or figure, e.g., regression_analysis.R, summary_statistics.py.
-	•	results/: Directory for output files, including generated figures, tables, and any intermediate results.
+- data/: Directory for anonymized data files used in the analysis (upon request).
+- scripts/: Contains necassary scripts to reproduce statisticaly analysis
 - README.md: Instructions for reproducing the analyses and a brief overview of the project.
 
+# Requirements and Reproducibility
+
+The code is organized in jupyeter notebook to allow for quick reproduction of the study’s statistical analysis and  result visualization.
+
+A full list of dependencies can be found in environment.yml. To set up the environment with the necessary packages, follow these steps:
+
+'''
+conda env create -f environment.yml
+conda activate [environment_name]
+'''
