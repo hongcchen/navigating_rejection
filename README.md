@@ -15,9 +15,9 @@ This is the abstract of our paper:
 
 # Requirements and Reproducibility
 
-The code is organized entirely in Jupyter Notebooks to allow for quick and straightforward reproduction of the study’s statistical analysis and result visualizations.
+The code is organized entirely in Jupyter Notebooks to allow for quick and straightforward reproduction of this study’s statistical analysis and result visualizations.
 
-A full list of dependencies can be found in environment.yml. To quickly set up the environment with the necessary packages, follow these steps:
+A full list of dependencies can be found in environment.yml. If you encounter any compatibility issues, you can use this file to recreate the environment with the required packages for consistency.
 
 ```
 conda env create -f environment.yml
